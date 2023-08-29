@@ -19,6 +19,7 @@ body {
     font-size: 1.6rem;
 }
 
+
 // NAV
 
 .burger-btn {
@@ -111,6 +112,12 @@ body {
             transition: transform .3s;
         }
     }
+}
+
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+    background-color: $dark;
 }
 
 // HEADER
